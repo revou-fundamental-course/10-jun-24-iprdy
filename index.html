@@ -1,12 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+    <link rel="stylesheet" href="css/style.css">
     <title>Konversi Suhu</title>
     <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/buno-weather/32/fahrenheit_celsius_degree_tempreture_change-512.png">
 </head>
-
 <body>
+    <section class="wrapper">
 
+        <!-- Ini section header -->
+        <section class="header">
+            <h1>KONVERSI SUHU</h1>
+        </section>
+        <br>
+        <!-- Ini section input suhu -->
+        <section class="input-suhu">
+            <p>Celcius (&deg;C)</p>
+            <input type="number" placeholder="Celcius (&deg;C)" id="celcius" value="">
+            <br>
+            <p>Fahrenheit (&deg;F)</p>
+            <input type="number" placeholder="Fahrenheit (&deg;F)" id="fahrenheit" value="">
+        </section>
+        <!-- Ini section tombol -->
+        <section class="button">
+            <button id="konversi">KONVERSI</button>
+            <button id="reset">RESET</button>
+            <button id="reverse">REVERSE</button>
+        </section>
+        <br>
+        <!-- Ini section kalkulasi -->
+        <section class="kalkulasi">
+            <p>Cara Kalkulasi</p>
+            <input type="text" id="rumus" readonly>
+        </section>
+    </section>
+    <script src="./js/script.js"></script>
 </body>
-
 </html>

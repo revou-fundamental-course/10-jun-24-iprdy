@@ -1,0 +1,148 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+    background-image: url("../assets/sky.jpg");
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.wrapper {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    border:solid;
+    border-color: gray;
+    border-radius: 20px;
+    border-width: 1px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 8px 32px black;
+    padding: 30px;
+    width: 600px;
+    height: 600px;
+}
+.header {
+    background-color: rgba(255, 255, 255, 0.179);
+    display: flex;
+    margin: auto;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    border: 1px solid;
+    border-color: grey;
+    box-shadow: 0px 0px 7px;
+    width: 350px;
+    justify-content: center;
+    padding: 20px;
+    font-size: 40px;
+    font-family: monospace;
+    color: black;
+}
+.input-suhu {
+    margin: auto;
+    width: 500px;
+    height: 180px;
+}
+.input-suhu input {
+    display: flex;
+    text-align: center;
+    width: 100%;;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.351);
+    border:groove ;
+    border-color: rgb(99, 99, 99);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.input-suhu p{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+.button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.button #konversi {
+    background-color: rgb(0, 250, 29);
+    border: inset;
+    border-color: rgb(0, 188, 47);
+    border-radius: 15px;
+    height: 60px;
+    width: 140px;
+    font-size: 20px;
+    font-weight:bold;
+    font-family: monospace;
+    color: darkgreen;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.button #konversi:hover {
+    background-color: rgb(0, 211, 25);
+}
+.button #konversi:active {
+    background-color: rgb(136, 255, 140);
+}
+.button #reset {
+    background-color: rgb(242, 147, 147);
+    border: inset;
+    border-color: tomato;
+    border-radius: 15px;
+    height: 60px;
+    width: 140px;
+    font-size: 20px;
+    font-weight:bold;
+    font-family: monospace;
+    color: rgb(148, 0, 0);
+    cursor: pointer;
+    transition: 0.4s;
+}
+.button #reset:hover {
+    background-color: rgb(210, 100, 100);
+}
+.button #reset:active {
+    background-color: rgb(255, 161, 161);
+}
+.button #reverse {
+    background-color: rgb(5, 219, 238);
+    border: inset;
+    border-color: aquamarine;
+    border-radius: 15px;
+    height: 60px;
+    width: 140px;
+    font-size: 20px;
+    font-weight:bold;
+    font-family: monospace;
+    color: rgb(0, 100, 97);
+    cursor: pointer;
+    transition: 0.4s;
+}
+.button #reverse:hover {
+    background-color: rgb(0, 196, 213);
+}
+.button #reverse:active {
+    background-color: rgb(107, 243, 255);
+}
+.kalkulasi p{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+.kalkulasi input {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    width: 500px;;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.351);
+    border:groove ;
+    border-color: rgb(99, 99, 99);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
