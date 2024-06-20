@@ -12,7 +12,7 @@ body {
 }
 .wrapper {
     background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(100px);
+    backdrop-filter: blur(20px);
     border:solid;
     border-color: gray;
     border-radius: 20px;
@@ -24,14 +24,9 @@ body {
     height: 600px;
 }
 .header {
-    background-color: rgba(255, 255, 255, 0.179);
     display: flex;
     margin: auto;
-    border-radius: 30px;
-    backdrop-filter: blur(10px);
-    border: 1px solid;
-    border-color: grey;
-    box-shadow: 0px 0px 7px;
+    border-radius: 10px;
     width: 350px;
     justify-content: center;
     padding: 20px;
@@ -145,4 +140,13 @@ body {
     border-color: rgb(99, 99, 99);
     color: rgb(0, 0, 0);
     font-size: 20px;
+}
+.iprdy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+    color: rgba(0, 0, 0, 0.512);
 }
